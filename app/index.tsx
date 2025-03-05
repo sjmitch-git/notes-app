@@ -12,9 +12,7 @@ const HomeScreen = () => {
     <View style={styles.container}>
       <Image source={PostItImage} style={styles.image} />
       <Text style={styles.title}>Welcome to Notes App</Text>
-      <Text style={styles.subtitle}>
-        Capture your thoughts anytime, anywhere
-      </Text>
+      <Text style={styles.subtitle}>Capture your thoughts anytime, anywhere</Text>
       <TouchableOpacity style={styles.button} onPress={onPress}>
         <Text style={styles.buttonText}>Get Started</Text>
       </TouchableOpacity>
@@ -28,6 +26,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
+    margin: 0,
     backgroundColor: "#f8f9fa",
   },
   image: {
